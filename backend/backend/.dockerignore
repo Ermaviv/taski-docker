@@ -1,0 +1,7 @@
+# Τΰιλ .dockerignore
+venv
+.env
+.git
+.idea
+.vscode
+db.sqlite3
