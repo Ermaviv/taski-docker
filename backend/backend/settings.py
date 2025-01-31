@@ -1,6 +1,5 @@
-from pathlib import Path
-
 import os
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -112,7 +111,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-#STATIC_ROOT = BASE_DIR / 'collected_static'
 STATIC_ROOT = '/backend_static/static/'
 
 # Default primary key field type
